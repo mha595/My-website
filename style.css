@@ -7,4 +7,37 @@
 
 #top-ban{
 	padding-top: 50px;
+	width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+/* Make the nav take up the whole body width, and give it some top and bottom margin space */
+
+.navbar {
+  font-size: 0;
+}
+
+.nav-item {
+  background: white;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 1px;
+  padding: 0 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*.nav-item:not(:first-child) {
+  border-left: 1px solid #6ba7f1;
+}
+
+.nav-item:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.nav-item:last-child {
+  border-radius: 0 3px 3px 0;
 }
