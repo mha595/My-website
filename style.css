@@ -1,13 +1,27 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        display : none;
+    }
+}
 
-#header{	
+
+@media (max-width: 40em) {
+.element {
+display: none;
+}
+}
+
+
+#header{
 	font-size: 50px;
-   font-family: 'Indie Flower', cursive;	
+   font-family: 'Indie Flower', cursive;
    text-align: center;
 }
 
 #top-ban{
-	padding-top: 50px;
-	width:500px;
+	  padding-top: 50px;
+	  width:500px;
     margin: auto;
     border: 3px solid #73AD21;
 }
